@@ -1,7 +1,40 @@
 * {
     box-sizing: border-box;
+    font-size: 62.5%;
 }
 
 body {
+    background-image: url(../images/nicole.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Roboto Mono', monospace, sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.header__brand {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.header__brand-logo {
+    margin: 1.6rem;
+    width: 10%;
+}
+
+.header__brand-title {
+    color: white;
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-top: 1.6rem;
+    text-transform: uppercase;
+    width: 1px;
 }
